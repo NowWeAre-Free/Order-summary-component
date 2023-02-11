@@ -1,18 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*
   2. Remove default margin
 */
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -20,7 +22,7 @@
 */
 html,
 body {
-  height: 100%;
+    height: 100%;
 }
 
 /*
@@ -29,8 +31,8 @@ body {
   5. Improve text rendering
 */
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*
@@ -41,8 +43,8 @@ picture,
 video,
 canvas,
 svg {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 /*
@@ -52,7 +54,7 @@ input,
 button,
 textarea,
 select {
-  font: inherit;
+    font: inherit;
 }
 
 /*
@@ -65,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /*
@@ -73,28 +75,29 @@ h6 {
 */
 #root,
 #__next {
-  isolation: isolate;
+    isolation: isolate;
 }
 
 :root {
-  //colors
-  --paleBlue: hsl(225, 100%, 94%);
-  --brightBlue: hsl(245, 75%, 52%);
-  --veryPaleBlue: hsl(225, 100%, 98%);
-  --desaturatedBlue: hsl(224, 23%, 55%);
-  --darkBlue: hsl(223, 47%, 23%);
+    //colors
+    --paleBlue: hsl(225, 100%, 94%);
+    --brightBlue: hsl(245, 75%, 52%);
+    --veryPaleBlue: hsl(225, 100%, 98%);
+    --desaturatedBlue: hsl(224, 23%, 55%);
+    --darkBlue: hsl(223, 47%, 23%);
 
-  //font-size
-  --fs: 16px;
+    //font-size
+    --fs: 16px;
 
-  //font-weights
-  --fw500: 500;
-  --fw700: 700;
-  --fw900: 900;
+    //font-weights
+    --fw500: 500;
+    --fw700: 700;
+    --fw900: 900;
 
-  //font-family
-  --ff: 'Red Hat Display', sans-serif;
+    //font-family
+    --ff: 'Red Hat Display', sans-serif;
 }
+
 body {
     font-size: var(--fs);
     background-image: url("/GitHubProjects/order-summary-component-main/images/pattern-background-mobile.svg");
@@ -102,4 +105,5 @@ body {
     background-position: center;
     background-size: contain;
     background-color: var(--paleBlue);
+    font-family: var(--ff);
 }
