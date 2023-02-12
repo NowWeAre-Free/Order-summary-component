@@ -95,7 +95,7 @@ body {
   background-image: url("/GitHubProjects/order-summary-component-main/images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-color: var(--paleBlue);
   font-family: var(--ff);
 }/*# sourceMappingURL=style.css.map */
