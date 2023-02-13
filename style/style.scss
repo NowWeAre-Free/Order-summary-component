@@ -107,3 +107,11 @@ body {
     background-color: var(--paleBlue);
     font-family: var(--ff);
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
