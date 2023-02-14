@@ -16,35 +16,32 @@
 
   <main>
     <article class="product">
-      <picture class="product__img">
-        <img class="image-section__img" src="/GitHubProjects/order-summary-component-main/images/illustration-hero.svg"
+      <picture class="product__image">
+        <img class="product__image__img" src="/GitHubProjects/order-summary-component-main/images/illustration-hero.svg"
           alt="A guy who's listening music">
       </picture>
 
       <div class="product__content">
 
-          <h1 class="product__title">Order Summary</h1>
+        <h1 class="product__title">Order Summary</h1>
+        <p class="product__subtitle">You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!</p>
 
-          <p class="product__subtitle">You can now listen to millions of songs, audiobooks, and podcasts on any
-            device anywhere you like!</p>
-
-        <div class="plan-box">
-
-          <div class="plan-box-left">
+        <div class="product__plan">
+          <div class="product__plan__left">
             <img src="/GitHubProjects/order-summary-component-main/images/icon-music.svg" alt="music icon">
-
-            <div>
-              <h5>Annual Plan</h5>
-              <p>$59.99/year</p>
-
+            <div class="product__plan__details">
+              <p class="product__plan__name">Annual Plan</p>
+              <p class="product__plan__price">$59.99/year</p>
             </div>
           </div>
-          <a href="#">Change</a>
+
+          <a class="product__plan__change" href="#">Change</a>
         </div>
 
-        <div class="buttons">
-          <a href="#" class="proceed-btn">Proceed to Payment</a>
-          <a href="#" class="cancel-btn">Cancel Order</a>
+        <div class="product__actions">
+          <a href="#" class="product__actions__proceed btn">Proceed to Payment</a>
+          <a href="#" class="product__actions__cancel btn">Cancel Order</a>
         </div>
 
       </div>
