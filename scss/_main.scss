@@ -1,0 +1,13 @@
+@use './variables' as *;
+
+.main {
+    background-image: url('/images/pattern-background-mobile.svg');
+    background-color: $paleBlue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
