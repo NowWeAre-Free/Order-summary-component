@@ -39,3 +39,30 @@
         }
     }
 }
+@media (max-width: 340px) {
+    .plan {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        overflow: hidden;
+        padding: .5rem;
+        &__left-side {
+            &--img {
+                margin-bottom: .5rem;
+            }
+        }
+    }
+
+}
+@media (max-width: 265px) {
+    .plan {
+        align-items: center;
+        &__left-side {
+            display: flex;
+            flex-direction: column;
+            &--img {
+                margin-right: 0;
+            }
+        }
+    }
+}

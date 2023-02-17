@@ -13,3 +13,12 @@
     font-family: $ff;
     font-size: $fs;
 }
+@media (min-width: 450px) {
+    .main {
+        background-image: url('/images/pattern-background-desktop.svg');
+        background-color: $paleBlue;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
