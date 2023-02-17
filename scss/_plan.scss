@@ -5,7 +5,6 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    margin: 0 1.2rem;
     padding: 1rem;
     border-radius: .65rem;
     &__left-side {
@@ -19,5 +18,18 @@
         flex-direction: column;
         justify-content: center;
         gap: .5rem;
+        &--name {
+            color: $darkBlue;
+            font-weight: $fw900;
+        }
+        &--price {
+            color: $desaturatedBlue;
+        }
+    }
+    &__change {
+        &:hover {
+            text-decoration: none;
+            color: $brightBlue;
+        }
     }
 }

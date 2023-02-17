@@ -6,6 +6,9 @@
     margin: 0 1.5rem 0 1.5rem;
     border-radius: 20px;
     overflow: hidden;
+    &__content {
+        padding: 1.2rem;
+    }
     &__image {
         border-radius: 20px 20px 0 0;
     }
@@ -14,12 +17,12 @@
         color: $darkBlue;
         font-weight: $fw900;
         font-size: 22px;
-        padding: 1.75rem 0;
+        margin: 1rem 0;
     }
     &__description {
         text-align: center;
         color: $desaturatedBlue;
         line-height: 1.5;
-        margin: 0 2rem 1rem 2rem;
+        margin-bottom: 1.2rem;
     }
 }

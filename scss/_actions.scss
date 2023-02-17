@@ -1,0 +1,19 @@
+@use './variables' as *;
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    &__proceed {
+        text-align: center;
+        background-color: $brightBlue;
+        color: $white;
+        width: 100%;
+        margin-top: 1.5rem;
+        padding: 1rem 3rem;
+        border-radius: .65rem;
+        text-decoration: none;
+    }
+}
