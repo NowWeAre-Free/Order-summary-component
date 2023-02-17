@@ -1,31 +1,37 @@
-@use './variables' as *;
+@use './variables'as *;
 
 .plan {
     background-color: $veryPaleBlue;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem;
     border-radius: .65rem;
+
     &__left-side {
         display: flex;
+
         &--img {
             margin-right: 1rem;
         }
     }
+
     &__details {
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: .5rem;
+
         &--name {
             color: $darkBlue;
             font-weight: $fw900;
         }
+
         &--price {
             color: $desaturatedBlue;
         }
     }
+
     &__change {
         &:hover {
             text-decoration: none;

@@ -1,4 +1,4 @@
-@use './variables' as *;
+@use './variables'as *;
 
 .actions {
     display: flex;
@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
+
     &__proceed {
         text-align: center;
         background-color: $brightBlue;
@@ -17,15 +18,18 @@
         text-decoration: none;
         box-shadow: $brightBlue 0px 25px 20px -20px;
         transition: all 0.1s ease-in-out;
+
         &:hover {
             background-color: rgb(97, 53, 255);
         }
     }
+
     &__cancel {
         color: $desaturatedBlue;
         text-decoration: none;
         margin-bottom: .6rem;
         font-weight: $fw700;
+
         &:hover {
             color: $darkBlue;
         }
