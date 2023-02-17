@@ -1,14 +1,29 @@
 @use './variables' as *;
 
 %border-radius-card {
-    border-radius: 30px 30px 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
 .card {
     background-color: $veryPaleBlue;
     max-width: 400px;
+    margin: 0 1.5rem 0 1.5rem;
     @extend %border-radius-card;
     &__image {
         @extend %border-radius-card;
+    }
+    &__title {
+        text-align: center;
+        color: $darkBlue;
+        font-weight: $fw900;
+        font-size: 22px;
+        padding: 1.75rem 0;
+    }
+    &__description {
+        text-align: center;
+        color: $desaturatedBlue;
+        line-height: 1.5;
+        margin: 0 2rem 1rem 2rem;
+        font-weight: ;
     }
 }
