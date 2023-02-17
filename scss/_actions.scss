@@ -15,5 +15,11 @@
         padding: 1rem 3rem;
         border-radius: .65rem;
         text-decoration: none;
+        box-shadow: $brightBlue 0px 25px 20px -20px;
+        transition: all 0.2s ease-in-out;
+        &:hover {
+            background-color: rgb(97, 53, 255);
+        }
     }
+
 }

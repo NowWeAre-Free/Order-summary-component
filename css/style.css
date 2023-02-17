@@ -165,6 +165,11 @@ h6 {
   padding: 1rem 3rem;
   border-radius: 0.65rem;
   text-decoration: none;
+  box-shadow: hsl(245deg, 75%, 52%) 0px 25px 20px -20px;
+  transition: all 0.2s ease-in-out;
+}
+.actions__proceed:hover {
+  background-color: rgb(97, 53, 255);
 }
 
 /*# sourceMappingURL=style.css.map */
