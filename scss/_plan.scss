@@ -56,12 +56,14 @@
 }
 @media (max-width: 265px) {
     .plan {
-        align-items: center;
         &__left-side {
             display: flex;
             flex-direction: column;
+            align-items: center;
             &--img {
                 margin-right: 0;
+                width: 45px;
+                height: 45px;
             }
         }
     }

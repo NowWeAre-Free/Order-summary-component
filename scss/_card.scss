@@ -33,3 +33,8 @@
         padding: 0 .8rem;
     }
 }
+@media (max-width: 265px) {
+    .card {
+        min-width: 200px;
+    }
+}
