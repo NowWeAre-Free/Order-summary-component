@@ -7,7 +7,7 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="/css/style.css">
@@ -19,8 +19,7 @@
   <main class="main">
     <article class="card">
       <picture>
-        <img class="card__image" src="/images/illustration-hero.svg"
-          alt="A guy who's listening music">
+        <img class="card__image" src="/images/illustration-hero.svg" aria-hidden="true">
       </picture>
 
       <div class="card__content">
@@ -29,21 +28,21 @@
         <p class="card__description">You can now listen to millions of songs, audiobooks, and podcasts on any
           device anywhere you like!</p>
 
-        <div class="card__plan">
-          <div class="card__plan-left">
-            <img src="/GitHubProjects/order-summary-component-main/images/icon-music.svg" alt="music icon">
-            <div class="card__plan-details">
-              <p class="card__plan-name">Annual Plan</p>
-              <p class="card__plan-price">$59.99/year</p>
+        <div class="plan">
+          <div class="plan__left-side">
+            <img src="/GitHubProjects/order-summary-component-main/images/icon-music.svg" aria-hidden="true">
+            <div class="plan__details">
+              <p class="plan__name">Annual Plan</p>
+              <p class="plan__price">$59.99/year</p>
             </div>
           </div>
 
-          <a class="card__plan-change" href="#">Change</a>
+          <a class="plan__change" href="#">Change</a>
         </div>
 
-        <div class="card__actions">
-          <a href="#" class="card__actions-proceed-btn">Proceed to Payment</a>
-          <a href="#" class="card__actions-cancel-btn">Cancel Order</a>
+        <div class="actions">
+          <a href="#" class="actions__proceed">Proceed to Payment</a>
+          <a href="#" class="actions__cancel">Cancel Order</a>
         </div>
       </div>
     </article>
