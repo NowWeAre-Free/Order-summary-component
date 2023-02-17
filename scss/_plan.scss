@@ -1,0 +1,17 @@
+@use './variables' as *;
+
+.plan {
+    background-color: $veryPaleBlue;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 1.2rem;
+
+    border-radius: .65rem;
+    &__left-side {
+        display: flex;
+        &--img {
+            
+        }
+    }
+}
