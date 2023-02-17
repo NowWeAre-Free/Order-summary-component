@@ -21,5 +21,9 @@
             background-color: rgb(97, 53, 255);
         }
     }
-
+    &__cancel {
+        color: $desaturatedBlue;
+        text-decoration: none;
+        margin-bottom: .6rem;
+    }
 }

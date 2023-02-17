@@ -171,5 +171,10 @@ h6 {
 .actions__proceed:hover {
   background-color: rgb(97, 53, 255);
 }
+.actions__cancel {
+  color: hsl(224deg, 23%, 55%);
+  text-decoration: none;
+  margin-bottom: 0.6rem;
+}
 
 /*# sourceMappingURL=style.css.map */
