@@ -1,16 +1,13 @@
 @use './variables' as *;
 
-%border-radius-card {
-    border-radius: 20px 20px 0 0;
-}
-
 .card {
     background-color: $white;
     max-width: 400px;
     margin: 0 1.5rem 0 1.5rem;
-    @extend %border-radius-card;
+    border-radius: 20px;
+    overflow: hidden;
     &__image {
-        @extend %border-radius-card;
+        border-radius: 20px 20px 0 0;
     }
     &__title {
         text-align: center;

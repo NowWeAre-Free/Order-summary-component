@@ -76,14 +76,15 @@ h6 {
   isolation: isolate;
 }
 
-.card__image, .card {
-  border-radius: 20px 20px 0 0;
-}
-
 .card {
   background-color: #fff;
   max-width: 400px;
   margin: 0 1.5rem 0 1.5rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card__image {
+  border-radius: 20px 20px 0 0;
 }
 .card__title {
   text-align: center;
@@ -119,10 +120,20 @@ h6 {
   justify-content: space-between;
   align-items: center;
   margin: 0 1.2rem;
+  padding: 1rem;
   border-radius: 0.65rem;
 }
 .plan__left-side {
   display: flex;
+}
+.plan__left-side--img {
+  margin-right: 1rem;
+}
+.plan__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
