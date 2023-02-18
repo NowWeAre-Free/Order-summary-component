@@ -125,8 +125,8 @@ h6 {
     background-image: url("/images/pattern-background-desktop.svg");
     background-color: hsl(225deg, 100%, 94%);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: top;
   }
 }
 .plan {
