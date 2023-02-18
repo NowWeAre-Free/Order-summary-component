@@ -6,6 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     font-family: $ff;
     font-size: $fs;
 }
@@ -13,5 +17,9 @@
 @media (min-width: 450px) {
     .main {
         background-image: url('/images/pattern-background-desktop.svg');
+        background-color: $paleBlue;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }

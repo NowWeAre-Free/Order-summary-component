@@ -106,21 +106,16 @@ h6 {
   padding: 0 0.8rem;
 }
 
-@media (max-width: 265px) {
-  .card {
-    min-width: 200px;
-  }
-}
 .main {
   background-image: url("/images/pattern-background-mobile.svg");
   background-color: hsl(225deg, 100%, 94%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
 }
@@ -128,6 +123,10 @@ h6 {
 @media (min-width: 450px) {
   .main {
     background-image: url("/images/pattern-background-desktop.svg");
+    background-color: hsl(225deg, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 .plan {
@@ -175,6 +174,9 @@ h6 {
   }
 }
 @media (max-width: 265px) {
+  .plan {
+    text-align: center;
+  }
   .plan__left-side {
     display: flex;
     flex-direction: column;
@@ -216,6 +218,12 @@ h6 {
 }
 .actions__cancel:hover {
   color: hsl(223deg, 47%, 23%);
+}
+
+@media (max-width: 265px) {
+  .actions__proceed {
+    padding: 0.2rem 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
