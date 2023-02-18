@@ -1,6 +1,6 @@
 # Welcome! 👋
 
-Simple project but very important - first time with SASS!
+Simple project but very important - first time with SASS(scss actually)!
 
 # Built with
 
