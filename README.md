@@ -5,9 +5,10 @@ Simple project but very important - first time with SASS(scss actually)!
 # Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS
 - Flexbox
 - Mobile-first workflow
+- RWD
 
 ### What I learned
 
